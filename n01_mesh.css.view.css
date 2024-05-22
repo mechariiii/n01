@@ -51,8 +51,8 @@ body {
     word-break: break-word;
     background-color: #000;
     color: #fff;
-    height: 20vh;
-    font-size: 13vmin;
+    height: 17vh;
+    font-size: 12vmin;
     max-width: 0;
 }
 
@@ -96,20 +96,19 @@ body {
 }
 
 .first {
-    position: absolute;
-    right: 8vmin;
-    top: calc(50% - 4vmin);
-    background-color: #c2185b;
-    border-radius: 50%;
-    width: 8vmin;
-    height: 8vmin;
-    display: none;
+    position: relative;  /* Change to relative to remove absolute positioning */
+    margin-left: 4vmin;  /* Move to the flag's location */
+    top: auto;  /* Reset the top property */
+    right: auto;  /* Reset the right property */
+    display: inline-block;  /* Ensure it displays inline within the container */
 }
 
 .flag {
-    margin-left: 4vmin;
-    width: 17vh;
-    vertical-align: middle;
+    position: absolute;  /* Change to absolute to move to the first indicator's location */
+    right: 8vmin;  /* Move to the first indicator's right property */
+    top: calc(50% - 4vmin);  /* Move to the first indicator's top property */
+    margin-left: 0;  /* Reset the margin-left property */
+    vertical-align: middle;  /* Keep vertical alignment */
 }
 
 #p1_stats, #p2_stats {
