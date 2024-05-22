@@ -95,12 +95,6 @@ body {
     line-height: 0.9;
 }
 
-.first {
-    margin-left: 4vmin;
-    width: 17vh;
-    vertical-align: middle;
-}
-
 .flag {
     position: absolute;
     right: 8vmin;
@@ -110,6 +104,12 @@ body {
     width: 8vmin;
     height: 8vmin;
     display: none;
+}
+
+.first {
+    margin-left: 4vmin;
+    width: 17vh;
+    vertical-align: middle;
 }
 
 #p1_stats, #p2_stats {
