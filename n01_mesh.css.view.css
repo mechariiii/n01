@@ -141,8 +141,8 @@ body {
     position: absolute;
     top: 15vmin;
     right: 0;
-    background-color: #c2185b;
-    width: 40vmin;
+    background-color: #A5F773;
+    width: 50vmin;
     height: 35vmin;
 }
 
@@ -151,7 +151,7 @@ body {
     left: 11vmin;
     top: calc(50% - 8vmin);
     border-top: 8vmin solid transparent;
-    border-right: 16vmin solid #fff;
+    border-right: 16vmin solid #000;
     border-bottom: 8vmin solid transparent;
 }
 
