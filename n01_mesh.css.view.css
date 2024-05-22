@@ -75,10 +75,10 @@ body {
     position: relative;
     text-align: left;
     word-break: break-word;
-    background-color: #FF0000; /* Updated background color */
+    background-color: #E1E1E1; /* Updated background color */
     color: #000;
     font-size: 16vmin;
-    font-family: "Courier New", Courier, monospace; /* Updated font family */
+    font-weight: bold; /* Added bold font weight */
     padding-left: 5vmin;
     padding-right: 16vmin;
     max-width: 0;
