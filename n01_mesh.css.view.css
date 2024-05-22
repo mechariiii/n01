@@ -1,3 +1,9 @@
+/*
+ * n01.css.view.css
+ *
+ * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
+ */
+
 body {
     -webkit-text-size-adjust: 100%;
     -ms-content-zooming: none;
@@ -101,33 +107,32 @@ body {
     color: #aaa;
 }
 
-.sets, .legs, .left {
-    text-align: center;
-    height: 33vh;
-    color: #fff;
-    font-size: 22vmin;
+.p1 .left {
+    background-color: yellow;
 }
 
-.sets, .legs, .left {
-    background: url('https://cdn4.premiumread.com/?url=https://akhbaar24.com/akhbar24/uploads/images/2024/05/21/8611997.jpg') no-repeat;
-    background-size: 100% 100%;
-}
-
-.sets {
-    width: 40vmin;
-    background-position: left top;
+.p1 .sets {
+    background-color: blue;
     border-right: solid 1px #555555;
 }
 
-.legs {
-    width: 40vmin;
-    background-position: center top;
+.p1 .legs {
+    background-color: brown;
     border-right: solid 1px #555555;
 }
 
-.left {
-    width: 60vmin;
-    background-position: right top;
+.p2 .left {
+    background-color: red;
+}
+
+.p2 .sets {
+    background-color: green;
+    border-right: solid 1px #555555;
+}
+
+.p2 .legs {
+    background-color: white;
+    border-right: solid 1px #555555;
 }
 
 .first {
