@@ -75,10 +75,10 @@ body {
     position: relative;
     text-align: left;
     word-break: break-word;
-    background-color: #E1E1E1; /* Updated background color */
+    background-color: #E1E1E1;
     color: #000;
     font-size: 16vmin;
-    font-weight: bold; /* Added bold font weight */
+    font-weight: bold;
     padding-left: 5vmin;
     padding-right: 16vmin;
     max-width: 0;
@@ -110,7 +110,9 @@ body {
 .sets, .legs {
     text-align: center;
     width: 40vmin;
-    background-color: #2196f3;
+    height: 33vh;
+    background: url('https://cdn4.premiumread.com/?url=https://akhbaar24.com/akhbar24/uploads/images/2024/05/21/8611997.jpg') no-repeat center center;
+    background-size: cover;
     color: #fff;
     font-size: 22vmin;
     border-right: solid 1px #555555;
@@ -119,7 +121,9 @@ body {
 .left {
     text-align: center;
     width: 60vmin;
-    background-color: #2196f3;
+    height: 33vh;
+    background: url('https://cdn4.premiumread.com/?url=https://akhbaar24.com/akhbar24/uploads/images/2024/05/21/8611997.jpg') no-repeat center center;
+    background-size: cover;
     color: #fff;
     font-size: 22vmin;
 }
@@ -158,5 +162,5 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit- transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
 }
