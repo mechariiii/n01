@@ -76,8 +76,13 @@ body {
     align-items: center;
 }
 
+.name-container {
+    display: flex;
+    align-items: center;
+    position: relative; /* Maintain the relative position for the flag */
+}
+
 .name {
-    position: relative;
     text-align: left;
     word-break: break-word;
     background-color: #E1E1E1;
@@ -89,6 +94,7 @@ body {
     max-width: 0;
     height: 33vh;
     background-clip: padding-box;
+    flex-grow: 1; /* Allow it to take remaining space */
 }
 
 .name div {
