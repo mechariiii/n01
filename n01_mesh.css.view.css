@@ -75,10 +75,9 @@ body {
     position: relative;
     text-align: left;
     word-break: break-word;
-    background-color: #E1E1E1; /* Updated background color */
+    background-color: #fff;
     color: #000;
     font-size: 16vmin;
-    font-weight: bold; /* Added bold font weight */
     padding-left: 5vmin;
     padding-right: 16vmin;
     max-width: 0;
@@ -95,6 +94,12 @@ body {
     line-height: 0.9;
 }
 
+.first {
+    margin-left: 4vmin;
+    width: 17vh;
+    vertical-align: middle;
+}
+
 .flag {
     position: absolute;
     right: 8vmin;
@@ -104,12 +109,6 @@ body {
     width: 8vmin;
     height: 8vmin;
     display: none;
-}
-
-.first {
-    margin-left: 4vmin;
-    width: 17vh;
-    vertical-align: middle;
 }
 
 #p1_stats, #p2_stats {
