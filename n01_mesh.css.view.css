@@ -96,24 +96,22 @@ body {
 }
 
 .first {
-    position: relative;  /* Change to relative positioning */
-    margin-left: 4vmin;  /* Same margin as the flag */
-    width: 8vmin;  /* Keep the width same as original */
-    height: 8vmin;  /* Keep the height same as original */
-    border-radius: 50%;  /* Keep it rounded */
-    background-color: #c2185b;  /* Keep the background color */
+    position: absolute;
+    left: 40vmin;  /* Adjust this value as needed to position next to player_stats */
+    top: 50%;  /* Adjust this value to align vertically */
+    transform: translateY(-50%);  /* Center it vertically */
+    background-color: #c2185b;
+    border-radius: 50%;
+    width: 8vmin;
+    height: 8vmin;
     display: inline-block;  /* Ensure it displays inline within the container */
-    right: auto;  /* Reset right property */
-    top: auto;  /* Reset top property */
 }
 
 .flag {
-    position: absolute;  /* Change to absolute to move to the first indicator's location */
-    right: 8vmin;  /* Move to the first indicator's right property */
-    top: calc(50% - 4vmin);  /* Move to the first indicator's top property */
-    width: 17vh;  /* Keep the width as it is */
-    margin-left: 0;  /* Reset margin-left */
-    vertical-align: middle;  /* Keep vertical alignment */
+    margin-left: 4vmin;
+    width: 17vh;
+    vertical-align: middle;
+    position: relative;  /* Keep it relative to avoid overlapping */
 }
 
 
