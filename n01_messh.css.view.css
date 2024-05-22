@@ -96,20 +96,26 @@ body {
 }
 
 .first {
-    position: relative;  /* Change to relative to remove absolute positioning */
-    margin-left: 4vmin;  /* Move to the flag's location */
-    top: auto;  /* Reset the top property */
-    right: auto;  /* Reset the right property */
+    position: relative;  /* Change to relative positioning */
+    margin-left: 4vmin;  /* Same margin as the flag */
+    width: 8vmin;  /* Keep the width same as original */
+    height: 8vmin;  /* Keep the height same as original */
+    border-radius: 50%;  /* Keep it rounded */
+    background-color: #c2185b;  /* Keep the background color */
     display: inline-block;  /* Ensure it displays inline within the container */
+    right: auto;  /* Reset right property */
+    top: auto;  /* Reset top property */
 }
 
 .flag {
     position: absolute;  /* Change to absolute to move to the first indicator's location */
     right: 8vmin;  /* Move to the first indicator's right property */
     top: calc(50% - 4vmin);  /* Move to the first indicator's top property */
-    margin-left: 0;  /* Reset the margin-left property */
+    width: 17vh;  /* Keep the width as it is */
+    margin-left: 0;  /* Reset margin-left */
     vertical-align: middle;  /* Keep vertical alignment */
 }
+
 
 #p1_stats, #p2_stats {
     margin-left: 4vmin;
