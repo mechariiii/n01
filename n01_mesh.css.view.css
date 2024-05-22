@@ -95,10 +95,21 @@ body {
     line-height: 0.9;
 }
 
-.flag {
+.first {
     margin-left: 4vmin;
     width: 17vh;
     vertical-align: middle;
+}
+
+.flag {
+    position: absolute;
+    right: 8vmin;
+    top: calc(50% - 4vmin);
+    background-color: #c2185b;
+    border-radius: 50%;
+    width: 8vmin;
+    height: 8vmin;
+    display: none;
 }
 
 #p1_stats, #p2_stats {
@@ -122,17 +133,6 @@ body {
     background-color: #2196f3;
     color: #fff;
     font-size: 22vmin;
-}
-
-.first {
-    position: absolute;
-    right: 8vmin;
-    top: calc(50% - 4vmin);
-    background-color: #c2185b;
-    border-radius: 50%;
-    width: 8vmin;
-    height: 8vmin;
-    display: none;
 }
 
 #current {
