@@ -75,10 +75,10 @@ body {
     position: relative;
     text-align: left;
     word-break: break-word;
-    background-color: #E1E1E1; 
+    background-color: #E1E1E1; /* Updated background color */
     color: #000;
     font-size: 16vmin;
-    font-weight: bold;
+    font-weight: bold; /* Added bold font weight */
     padding-left: 5vmin;
     padding-right: 16vmin;
     max-width: 0;
@@ -107,32 +107,21 @@ body {
     color: #aaa;
 }
 
-.p1 .left {
-    background-color: yellow;
-}
-
-.p1 .sets {
-    background-color: blue;
+.sets, .legs {
+    text-align: center;
+    width: 40vmin;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 22vmin;
     border-right: solid 1px #555555;
 }
 
-.p1 .legs {
-    background-color: brown;
-    border-right: solid 1px #555555;
-}
-
-.p2 .left {
-    background-color: red;
-}
-
-.p2 .sets {
-    background-color: green;
-    border-right: solid 1px #555555;
-}
-
-.p2 .legs {
-    background-color: white;
-    border-right: solid 1px #555555;
+.left {
+    text-align: center;
+    width: 60vmin;
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 22vmin;
 }
 
 .first {
@@ -169,5 +158,5 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
 }
