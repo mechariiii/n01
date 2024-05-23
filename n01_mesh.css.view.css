@@ -71,33 +71,19 @@ body {
     text-align: center;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.name-container {
-    display: flex;
-    align-items: center;
-    position: relative; /* Maintain the relative position for the flag */
-    flex-direction: row; /* Ensure items are in a row */
-}
-
 .name {
+    position: relative;
     text-align: left;
     word-break: break-word;
-    background-color: #E1E1E1;
+    background-color: #E1E1E1; /* Updated background color */
     color: #000;
     font-size: 16vmin;
-    font-weight: bold;
+    font-weight: bold; /* Added bold font weight */
     padding-left: 5vmin;
     padding-right: 16vmin;
     max-width: 0;
     height: 33vh;
     background-clip: padding-box;
-    flex-grow: 1; /* Allow it to take remaining space */
-    display: flex;
-    align-items: center; /* Center vertically within .name */
 }
 
 .name div {
@@ -110,22 +96,24 @@ body {
 }
 
 .first {
-    margin-left: 4vmin;
-    width: 8vmin;
-    height: 8vmin;
-    border-radius: 50%;
-    background-color: #c2185b;
-    display: inline-block;
+    position: relative;  /* Change to relative positioning */
+    margin-left: 4vmin;  /* Same margin as the flag */
+    width: 8vmin;  /* Keep the width same as original */
+    height: 8vmin;  /* Keep the height same as original */
+    border-radius: 50%;  /* Keep it rounded */
+    background-color: #c2185b;  /* Keep the background color */
+    display: inline-block;  /* Ensure it displays inline within the container */
+    right: auto;  /* Reset right property */
+    top: auto;  /* Reset top property */
 }
 
-
 .flag {
-    position: absolute;
-    right: 8vmin;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17vh;
-    vertical-align: middle;
+    position: absolute;  /* Change to absolute to move to the first indicator's location */
+    right: 8vmin;  /* Move to the first indicator's right property */
+    top: calc(50% - 4vmin);  /* Move to the first indicator's top property */
+    width: 17vh;  /* Keep the width as it is */
+    margin-left: 0;  /* Reset margin-left */
+    vertical-align: middle;  /* Keep vertical alignment */
 }
 
 
@@ -152,6 +140,8 @@ body {
     font-size: 22vmin;
 }
 
+
+
 #current {
     position: absolute;
     top: 15vmin;
@@ -175,5 +165,5 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
 }
