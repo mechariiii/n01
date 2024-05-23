@@ -108,12 +108,12 @@ body {
 }
 
 .flag {
-    position: absolute;  /* Change to absolute to move to the first indicator's location */
-    right: 8vmin;  /* Move to the first indicator's right property */
-    top: calc(50% - 4vmin);  /* Move to the first indicator's top property */
-    width: 17vh;  /* Keep the width as it is */
-    margin-left: 0;  /* Reset margin-left */
-    vertical-align: middle;  /* Keep vertical alignment */
+    position: absolute;
+    right: 8vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 17vh;
+    vertical-align: middle;
 }
 
 
