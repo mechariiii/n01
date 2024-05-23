@@ -118,10 +118,12 @@ body {
 .flag {
     position: absolute;
     right: 8vmin;
-    top: calc(50% - 4vmin);
+    top: 50%;
+    transform: translateY(-50%);
     width: 17vh;
     vertical-align: middle;
 }
+
 
 #p1_stats, #p2_stats {
     margin-left: 4vmin;
