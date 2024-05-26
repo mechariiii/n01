@@ -121,14 +121,15 @@ body {
 
 .first {
     position: absolute;
-    top: 50%; /* Adjust as needed to match original flag position */
-    left: 4vmin; /* Adjust as needed to match original flag position */
+    top: 50%; /* Adjust as needed to align with the flag's vertical position */
+    left: 4vmin; /* Adjust as needed to align with the flag's horizontal position */
     transform: translate(0, -50%); /* Center vertically */
-    width: 17vh; /* Adjust to the flag's original size */
-    height: auto; /* Keep the aspect ratio */
+    width: 17vh; /* Adjust to the flag's original width */
+    height: auto; /* Maintain aspect ratio */
+    background-color: #c2185b; /* Ensure the dot retains its original styling */
     display: block; /* Ensure the dot is visible */
+    border-radius: 50%; /* Keep the dot shape */
 }
-
 #current {
 	position: absolute;
 	top: 15vmin;
