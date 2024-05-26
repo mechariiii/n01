@@ -1,0 +1,156 @@
+/*
+ * n01.css.view.css
+ *
+ * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
+ */
+
+body {
+	-webkit-text-size-adjust: 100%;
+	-ms-content-zooming: none;
+	
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+	font-family: Arial;
+	background-color: #333;
+	color: #000;
+	overflow: hidden;
+}
+
+#score_view_inset_body {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#article {
+	cursor: default;
+	position: relative;
+	min-height: 100vh;
+	min-height: calc(var(--vh, 1vh) * 100);
+}
+
+#result_table {
+	width: calc(100% - 40vmin);
+	height: 100vmin;
+}
+
+#result_table td {
+	vertical-align: middle !important;
+}
+
+#result_table tr:nth-child(2) td {
+	border-bottom: solid 1px #555555;
+}
+
+.title {
+	text-align: left;
+	word-break: break-word;
+	background-color: #000;
+	color: #fff;
+	height: 17vh;
+	font-size: 12vmin;
+	max-width: 0;
+}
+
+.title:first-child {
+	padding-left: 5vmin;
+}
+
+.title div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 1vmin 0;
+}
+
+#title_sets, #title_legs, #title_left {
+	text-align: center;
+}
+
+.name {
+    position: relative; /* Ensure the parent container is relative */
+}
+
+
+}
+
+.name div {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding: 2vmin 0;
+	line-height: 0.9;
+}
+
+.flag {
+    position: absolute;
+    top: calc(50% - 4vmin); /* Align with the original dot's vertical position */
+    right: 8vmin; /* Align with the original dot's horizontal position */
+    width: 8vmin; /* Adjust width to match the dot's size */
+    height: 8vmin; /* Ensure height matches the dot's size */
+}
+
+
+#p1_stats, #p2_stats {
+	margin-left: 4vmin;
+	font-size: 12vmin;
+	color: #aaa;
+}
+
+.sets, .legs {
+	text-align: center;
+	width: 40vmin;
+	background-color: #2196f3;
+	color: #fff;
+	font-size: 22vmin;
+	border-right: solid 1px #555555;
+}
+
+.left {
+	text-align: center;
+	width: 60vmin;
+	background-color: #2196f3;
+	color: #fff;
+	font-size: 22vmin;
+}
+
+.first {
+    position: absolute;
+    top: 50%; /* Adjust as needed to match original flag position */
+    left: 4vmin; /* Adjust as needed to match original flag position */
+    transform: translate(0, -50%); /* Center vertically */
+    width: 17vh; /* Adjust to the flag's original size */
+    height: auto; /* Keep the aspect ratio */
+    display: block; /* Ensure the dot is visible */
+}
+
+#current {
+	position: absolute;
+	top: 15vmin;
+	right: 0;
+	background-color: #c2185b;
+	width: 40vmin;
+	height: 35vmin;
+}
+
+#current_mark {
+	position: absolute;
+	left: 11vmin;
+	top: calc(50% - 8vmin);
+	border-top: 8vmin solid transparent;
+	border-right: 16vmin solid #fff;
+	border-bottom: 8vmin solid transparent;
+}
+
+#score_view_frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	-webkit- transform: translateY(-50%) translateX(-50%);
+}
