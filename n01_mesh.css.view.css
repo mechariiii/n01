@@ -72,19 +72,17 @@ body {
 }
 
 .name {
-    position: relative; /* Ensure the name container is positioned relatively */
-    text-align: left;
-    word-break: break-word;
-    background-color: #fff;
-    color: #000;
-    font-size: 16vmin;
-    padding-left: 5vmin;
-    padding-right: 16vmin;
-    max-width: 0;
-    height: 33vh;
-    background-clip: padding-box;
-}
-
+	position: relative;
+	text-align: left;
+	word-break: break-word;
+	background-color: #fff;
+	color: #000;
+	font-size: 16vmin;
+	padding-left: 5vmin;
+	padding-right: 16vmin;
+	max-width: 0;
+	height: 33vh;
+	background-clip: padding-box;
 }
 
 .name div {
@@ -96,15 +94,11 @@ body {
 	line-height: 0.9;
 }
 
-.flag {
-    margin-left: 0; /* Remove the left margin */
-    width: 17vh;
-    vertical-align: middle;
-    position: absolute; /* Position the flag absolutely within the name container */
-    right: 8vmin; /* Position the flag where the dot used to be */
-    top: calc(50% - 4vmin); /* Adjust the vertical position to center it */
+.first {
+	margin-left: 4vmin;
+	width: 17vh;
+	vertical-align: middle;
 }
-
 
 #p1_stats, #p2_stats {
 	margin-left: 4vmin;
@@ -129,15 +123,15 @@ body {
 	font-size: 22vmin;
 }
 
-.first {
-    position: absolute; /* Position the dot absolutely within the name container */
-    left: 4vmin; /* Move the dot to where the flag used to be */
-    top: calc(50% - 4vmin); /* Center the dot vertically */
-    background-color: #c2185b;
-    border-radius: 50%;
-    width: 8vmin;
-    height: 8vmin;
-    display: block; /* Ensure the dot is displayed */
+.flag {
+	position: absolute;
+	right: 8vmin;
+	top: calc(50% - 4vmin);
+	background-color: #c2185b;
+	border-radius: 50%;
+	width: 8vmin;
+	height: 8vmin;
+	display: none;
 }
 
 #current {
@@ -165,3 +159,4 @@ body {
 	transform: translateY(-50%) translateX(-50%);
 	-webkit- transform: translateY(-50%) translateX(-50%);
 }
+
