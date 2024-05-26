@@ -72,9 +72,18 @@ body {
 }
 
 .name {
-    position: relative; /* Ensure the parent container is relative */
+    position: relative; /* Ensure the name container is positioned relatively */
+    text-align: left;
+    word-break: break-word;
+    background-color: #fff;
+    color: #000;
+    font-size: 16vmin;
+    padding-left: 5vmin;
+    padding-right: 16vmin;
+    max-width: 0;
+    height: 33vh;
+    background-clip: padding-box;
 }
-
 
 }
 
@@ -88,11 +97,12 @@ body {
 }
 
 .flag {
-    position: absolute;
-    top: calc(50% - 4vmin); /* Align with the original dot's vertical position */
-    right: 8vmin; /* Align with the original dot's horizontal position */
-    width: 8vmin; /* Adjust width to match the dot's size */
-    height: 8vmin; /* Ensure height matches the dot's size */
+    margin-left: 0; /* Remove the left margin */
+    width: 17vh;
+    vertical-align: middle;
+    position: absolute; /* Position the flag absolutely within the name container */
+    right: 8vmin; /* Position the flag where the dot used to be */
+    top: calc(50% - 4vmin); /* Adjust the vertical position to center it */
 }
 
 
@@ -120,15 +130,14 @@ body {
 }
 
 .first {
-    position: absolute;
-    top: 50%; /* Align with the middle of the flag */
-    left: 4vmin; /* Align with the flag's horizontal position */
-    transform: translateY(-50%); /* Center vertically */
-    width: 17vh; /* Adjust to the flag's original width */
-    height: auto; /* Maintain aspect ratio */
-    background-color: #c2185b; /* Ensure the dot retains its original styling */
-    border-radius: 50%; /* Keep the dot shape */
-    display: block; /* Ensure the dot is visible */
+    position: absolute; /* Position the dot absolutely within the name container */
+    left: 5vmin; /* Position the dot where the flag used to be */
+    top: calc(50% - 4vmin); /* Adjust the vertical position to center it */
+    background-color: #c2185b;
+    border-radius: 50%;
+    width: 8vmin;
+    height: 8vmin;
+    display: block; /* Ensure the dot is displayed */
 }
 #current {
 	position: absolute;
