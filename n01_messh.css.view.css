@@ -131,14 +131,15 @@ body {
 
 .first {
     position: absolute; /* Position the dot absolutely within the name container */
-    left: 5vmin; /* Position the dot where the flag used to be */
-    top: calc(50% - 4vmin); /* Adjust the vertical position to center it */
+    left: 4vmin; /* Move the dot to where the flag used to be */
+    top: calc(50% - 4vmin); /* Center the dot vertically */
     background-color: #c2185b;
     border-radius: 50%;
     width: 8vmin;
     height: 8vmin;
     display: block; /* Ensure the dot is displayed */
 }
+
 #current {
 	position: absolute;
 	top: 15vmin;
