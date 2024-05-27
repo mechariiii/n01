@@ -1,5 +1,5 @@
 /*
- * n01.css.view.css
+ * n01_dark.css.view.css
  *
  * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
  */
@@ -34,7 +34,7 @@ body {
 }
 
 #result_table {
-	width: calc(100% - 40vmin);
+	width: calc(100% - 25vmin);
 	height: 100vmin;
 }
 
@@ -42,8 +42,16 @@ body {
 	vertical-align: middle !important;
 }
 
-#result_table tr:nth-child(2) td {
-	border-bottom: solid 1px #555555;
+#result_table tr:nth-child(2) td, #result_table tr:nth-child(3) td {
+	border: solid 1px #fff;
+	box-shadow:
+		0 0 0.5vmin #fff,
+		inset 0 0 0.5vmin #fff,
+		0 0 2vmin #08f,
+		inset 0 0 2vmin #08f,
+		0 0 4vmin #08f,
+		inset 0 0 4vmin #08f;
+	box-sizing: border-box;
 }
 
 .title {
@@ -51,9 +59,17 @@ body {
 	word-break: break-word;
 	background-color: #000;
 	color: #fff;
-	height: 17vh;
+	height: 17vmin;
 	font-size: 12vmin;
 	max-width: 0;
+	text-shadow:
+		-0.1vmin -0.1vmin 0.5vmin #fff,
+		0.1vmin 0.1vmin 0.5vmin #fff,
+		0 0 1.0vmin #08f,
+		0 0 1.5vmin #08f,
+		0 0 2.0vmin #08f,
+		0 0 4.0vmin #08f,
+		0 0 6.0vmin #08f;
 }
 
 .title:first-child {
@@ -71,22 +87,31 @@ body {
 	text-align: center;
 }
 
+#p1, #p2 {
+	text-shadow:
+		-0.1vmin -0.1vmin 0.5vmin #fff,
+		0.1vmin 0.1vmin 0.5vmin #fff,
+		0 0 1.0vmin #f40,
+		0 0 1.5vmin #f40,
+		0 0 2.0vmin #f40,
+		0 0 4.0vmin #f40,
+		0 0 6.0vmin #f40;
+}
+
 .name {
 	position: relative;
 	text-align: left;
 	word-break: break-word;
-	background-color: #fff;
-	color: #000;
+	background-color: #202124;
+	color: #fff;
 	font-size: 16vmin;
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
 	height: 33vh;
-	background-clip: padding-box;
 }
 
 .name div {
-	overflow: hidden;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
@@ -94,62 +119,76 @@ body {
 	line-height: 0.9;
 }
 
-.first {
-	margin-left: 4vmin;
-	width: 17vh;
-	vertical-align: middle;
-}
-
 #p1_stats, #p2_stats {
 	margin-left: 4vmin;
 	font-size: 12vmin;
-	color: #aaa;
+	color: #fff;
+	text-shadow:
+		-0.08vmin -0.08vmin 0.4vmin #fff,
+		0.08vmin 0.08vmin 0.4vmin #fff,
+		0 0 0.4vmin #08f,
+		0 0 0.8vmin #08f,
+		0 0 1.0vmin #08f,
+		0 0 2.0vmin #08f,
+		0 0 3.0vmin #08f;
 }
 
 .sets, .legs {
 	text-align: center;
 	width: 40vmin;
-	background-color: #2196f3;
+	background-color: #202124;
 	color: #fff;
 	font-size: 22vmin;
-	border-right: solid 1px #555555;
 }
 
 .left {
 	text-align: center;
 	width: 60vmin;
-	background-color: #2196f3;
+	background-color: #202124;
 	color: #fff;
 	font-size: 22vmin;
 }
 
-.flag {
+.sets, .legs, .left {
+	text-shadow:
+		-0.1vmin -0.1vmin 0.5vmin #fff,
+		0.1vmin 0.1vmin 0.5vmin #fff,
+		0 0 1.0vmin #f6f,
+		0 0 1.5vmin #f6f,
+		0 0 2.0vmin #f6f,
+		0 0 4.0vmin #f6f,
+		0 0 6.0vmin #f6f;
+}
+
+.first {
 	position: absolute;
 	right: 8vmin;
 	top: calc(50% - 4vmin);
-	background-color: #c2185b;
+	background-color: #fff;
 	border-radius: 50%;
 	width: 8vmin;
 	height: 8vmin;
 	display: none;
+	filter: drop-shadow(0.5vmin 0.5vmin 2.0vmin #08f) drop-shadow(-0.5vmin -0.5vmin 2.0vmin #08f);
 }
 
 #current {
 	position: absolute;
 	top: 15vmin;
 	right: 0;
-	background-color: #c2185b;
-	width: 40vmin;
+	background-color: rgba(0, 0, 0, 0);
+	width: 25vmin;
 	height: 35vmin;
 }
 
 #current_mark {
 	position: absolute;
-	left: 11vmin;
+	left: 4vmin;
 	top: calc(50% - 8vmin);
 	border-top: 8vmin solid transparent;
 	border-right: 16vmin solid #fff;
 	border-bottom: 8vmin solid transparent;
+	filter: drop-shadow(0.5vmin 0.5vmin 2.0vmin #08f) drop-shadow(-0.5vmin -0.5vmin 2.0vmin #08f);
 }
 
 #score_view_frame {
