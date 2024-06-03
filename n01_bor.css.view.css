@@ -126,14 +126,16 @@ body {
 }
 
 .first {
-	position: relative;
-	margin-left: 4vmin;
+	position: absolute;
+	right: 8vmin;
+	top: calc(50% - 4vmin);
 	background-color: #c2185b;
 	border-radius: 50%;
 	width: 8vmin;
 	height: 8vmin;
-	display: inline-block;
+	display: block;
 }
+
 
 #current {
 	position: absolute;
