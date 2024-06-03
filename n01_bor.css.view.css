@@ -123,6 +123,7 @@ body {
 	top: calc(50% - 4vmin);
 	width: 17vh;
 	vertical-align: middle;
+	display: none; /* Hide the flag initially */
 }
 
 .first {
@@ -135,6 +136,19 @@ body {
 	height: 8vmin;
 	display: block;
 }
+
+.flag + .first {
+	position: static;
+	display: inline-block;
+	margin-left: 4vmin;
+}
+
+.name img.flag {
+	display: inline-block;
+	position: static;
+	margin-left: 4vmin;
+}
+
 
 
 #current {
