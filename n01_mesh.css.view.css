@@ -58,7 +58,7 @@ body {
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 350; /* Text is now bold */
 	color: #cdcccb;
-	height: 17vh;
+	height: 20vh;
 	max-width: 0;
 }
 
@@ -89,7 +89,7 @@ body {
 	background-color: #333;
 	color: #cdcccb;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 440; /* Text is now bold */
+	font-weight: 400; /* Text is now bold */
 	font-size: 22vmin;
 	border-right: solid 3px #8f8f8f;
 }
@@ -100,7 +100,7 @@ body {
 	background-color: #333;
 	color: #98db72;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 620; /* Text is now bold */
+	font-weight: 580; /* Text is now bold */
 	font-size: 22vmin;
 }
 
