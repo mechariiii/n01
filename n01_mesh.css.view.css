@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /*
  * n01_board.css.view.css
  *
@@ -81,14 +85,18 @@ body {
 	position: relative;
 	text-align: left;
 	word-break: break-word;
-	color: #fff;
-	background-color: transparent;
-	font-size: 16vmin;
+	background-color: #d6d7d9;
+	color: #000;
+	font-family: 'Fredoka', sans-serif;
+	font-size: 18vmin; /* Increased font size */
+	font-weight: 550; /* Text is now bold */
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
 	height: 33vh;
+	background-clip: padding-box;
 }
+
 
 .name div {
 	overflow: hidden;
