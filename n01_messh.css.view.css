@@ -104,7 +104,7 @@ body {
 	color: #000;
 	font-family: 'Fredoka', sans-serif;
 	font-size: 20vmin; /* Increased font size */
-	font-weight: bold; /* Text is now bold */
+	font-weight: Medium; /* Text is now bold */
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
