@@ -124,10 +124,14 @@ body {
 	font-weight: 550; /* Text is now bold */
 	padding-left: 5vmin;
 	padding-right: 16vmin;
-	max-width: 0;
+	white-space: nowrap; /* Prevents text from wrapping */
+	overflow: hidden; /* Hides the overflow text */
+	text-overflow: ellipsis; /* Adds ellipsis to indicate overflow */
+	max-width: 50%; /* Adjust this value to fit the first two words */
 	height: 33vh;
 	background-clip: padding-box;
 }
+
 
 
 .name div {
