@@ -53,12 +53,12 @@ body {
 .title {
 	text-align: left;
 	word-break: break-word;
-	background-color: #000;
+	background-color: #333;
 	font-family: 'Fredoka', sans-serif;
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 350; /* Text is now bold */
 	color: #cdcccb;
-	height: 20vh;
+	height: 18vh;
 	max-width: 0;
 }
 
