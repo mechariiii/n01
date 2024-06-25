@@ -77,8 +77,16 @@ body {
 	
 }
 
-#title_sets, #title_legs, #title_left {
+#title_sets, #title_legs {
 	text-align: center;
+}
+
+#title_left
+ {
+	text-align: center;
+	color: #333;
+
+	 
 }
 
 #p1_stats, #p2_stats {
