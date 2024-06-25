@@ -71,11 +71,6 @@ body {
 	text-align: center;
 }
 
-#p1, #p2 {
-    font-weight: bold;
-    text-shadow: none;
-}
-
 
 #p1_stats, #p2_stats {
 	margin-left: 4vmin;
@@ -105,12 +100,14 @@ body {
 	word-break: break-word;
 	background-color: #fff;
 	color: #000;
-	font-size: 16vmin;
+	font-size: 18vmin;
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
 	height: 33vh;
 	background-clip: padding-box;
+	font-weight: bold;
+
 }
 
 .name div {
