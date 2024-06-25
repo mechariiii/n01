@@ -89,7 +89,7 @@ body {
 	background-color: #2196f3;
 	color: #cdcccb;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 350; /* Text is now bold */
+	font-weight: 440; /* Text is now bold */
 	font-size: 22vmin;
 	border-right: solid 3px #8f8f8f;
 }
@@ -100,7 +100,7 @@ body {
 	background-color: #2196f3;
 	color: #98db72;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 400; /* Text is now bold */
+	font-weight: 620; /* Text is now bold */
 	font-size: 22vmin;
 }
 
