@@ -4,6 +4,18 @@
  * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
  */
 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
 	-webkit-text-size-adjust: 100%;
 	-ms-content-zooming: none;
@@ -107,7 +119,7 @@ body {
 	height: 33vh;
 	background-clip: padding-box;
 	font-weight: bold;
-
+        font-family: "Fredoka", sans-serif;
 }
 
 .name div {
