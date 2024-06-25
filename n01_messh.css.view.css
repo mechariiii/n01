@@ -183,7 +183,7 @@ body {
 	position: absolute;
 	top: 15vmin;
 	right: 0;
-	background: linear-gradient(to bottom, #333 0%, #333 7%, #98db72 7%, #98db72 93%, #333 93%, #333 100%);
+	background: linear-gradient(to bottom, #333 0%, #333 9%, #98db72 9%, #98db72 91%, #333 91%, #333 100%);
 	width: 40vmin;
 	height: 35vmin;
 	box-shadow: inset 10px 0 10px rgba(0, 0, 0, 0.3);
