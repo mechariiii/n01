@@ -58,10 +58,10 @@ body {
 	word-break: break-word;
 	background-color: #333;
 	font-family: 'Fredoka', sans-serif;
-	font-size: 11vmin; /* Increased font size */
+	font-size: 12vmin; /* Increased font size */
 	font-weight: 350; /* Text is now bold */
 	color: #cdcccb;
-	height: 16vh;
+	height: 17vh;
 	max-width: 0;
 }
 
