@@ -4,17 +4,9 @@
  * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
  */
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
-
-.fredoka-<uniquifier> {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+</style>
 
 body {
 	-webkit-text-size-adjust: 100%;
