@@ -97,7 +97,6 @@ body {
 	font-weight: 400; /* Text is now bold */
 	font-size: 22vmin;
 	border-right: solid 3px #8f8f8f;
-	border-left: solid 3px #8f8f8f;
 }
 
 .left {
@@ -108,6 +107,8 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 580; /* Text is now bold */
 	font-size: 22vmin;
+	border-right: solid 3px #8f8f8f;
+
 }
 
 .name {
