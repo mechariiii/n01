@@ -195,11 +195,12 @@ body {
 #current_mark {
 	position: absolute;
 	left: 11vmin;
-	top: calc(50% - 4vmin);
-	border-top: 4vmin solid transparent;
-	border-right: 8vmin solid #000;
-	border-bottom: 4vmin solid transparent;
+	top: calc(50% - 8vmin);
+	border-top: 7vmin solid transparent;
+	border-right: 14vmin solid #000;
+	border-bottom: 7vmin solid transparent;
 }
+
 
 #score_view_frame {
 	position: absolute;
