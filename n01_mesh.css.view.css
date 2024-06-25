@@ -71,6 +71,11 @@ body {
 	text-align: center;
 }
 
+#p1, #p2 {
+    font-weight: bold;
+    text-shadow: none;
+}
+
 
 #p1_stats, #p2_stats {
 	margin-left: 4vmin;
