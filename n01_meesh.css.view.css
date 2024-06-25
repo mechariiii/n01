@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 /*
  * n01.css.view.css
  *
@@ -86,8 +88,9 @@ body {
 	width: 40vmin;
 	background-color: #2196f3;
 	color: #cdcccb;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300; /* Text is now bold */
 	font-size: 22vmin;
-	font-weight: lighter
 	border-right: solid 3px #8f8f8f;
 }
 
