@@ -47,7 +47,7 @@ body {
 }
 
 #result_table tr:nth-child(2) td {
-	border-bottom: solid 3px #8f8f8f;
+	border-bottom: solid 1px #8f8f8f;
 }
 
 .title {
@@ -64,6 +64,7 @@ body {
 
 .title:first-child {
 	padding-left: 5vmin;
+	background-color: #000;
 }
 
 .title div {
@@ -71,7 +72,7 @@ body {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 1vmin 0;
-	background-color: #000;
+	
 }
 
 #title_sets, #title_legs, #title_left {
@@ -92,7 +93,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400; /* Text is now bold */
 	font-size: 22vmin;
-	border-right: solid 3px #8f8f8f;
+	border-right: solid 1px #8f8f8f;
 }
 
 .left {
