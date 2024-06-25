@@ -183,11 +183,12 @@ body {
 	position: absolute;
 	top: 15vmin;
 	right: 0;
-	background-color: #98db72;
+	background: linear-gradient(to bottom, #000 0%, #000 33.33%, #ff0000 33.33%, #ff0000 66.66%, #ffce00 66.66%, #ffce00 100%);
 	width: 40vmin;
 	height: 35vmin;
 	box-shadow: inset 10px 0 10px rgba(0, 0, 0, 0.3);
 }
+
 
 
 
