@@ -102,15 +102,16 @@ body {
 	word-break: break-word;
 	background-color: #fff;
 	color: #000;
-	font-size: 18vmin;
+	font-family: 'Fredoka', sans-serif;
+	font-size: 20vmin; /* Increased font size */
+	font-weight: bold; /* Text is now bold */
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
 	height: 33vh;
 	background-clip: padding-box;
-	font-family: 'Fredoka', 500;
-	font-weight: 500;
 }
+
 
 .name div {
 	overflow: hidden;
