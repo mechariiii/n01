@@ -58,7 +58,7 @@ body {
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 350; /* Text is now bold */
 	color: #cdcccb;
-	height: 18vh;
+	height: 17vh;
 	max-width: 0;
 }
 
@@ -71,6 +71,7 @@ body {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 1vmin 0;
+	background-color: #000;
 }
 
 #title_sets, #title_legs, #title_left {
