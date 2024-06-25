@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
 /*
- * n01.css.view.css
+ * n01_board.css.view.css
  *
  * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
  */
+
+@font-face {
+	font-family: 'Chalk';
+	src: url('erasdust.ttf') format('truetype');
+}
 
 body {
 	-webkit-text-size-adjust: 100%;
@@ -20,7 +21,7 @@ body {
 	-webkit-touch-callout: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
-	font-family: Arial, sans-serif;
+	font-family: Arial;
 	background-color: #333;
 	color: #000;
 	overflow: hidden;
@@ -40,6 +41,7 @@ body {
 #result_table {
 	width: calc(100% - 40vmin);
 	height: 100vmin;
+	background-image: url("chalkboard-black-pattern-01.jpg");
 }
 
 #result_table td {
@@ -47,24 +49,21 @@ body {
 }
 
 #result_table tr:nth-child(2) td {
-	border-bottom: solid 1px #8f8f8f;
+	border-bottom: solid 1px #555555;
 }
 
 .title {
 	text-align: left;
 	word-break: break-word;
-	background-color: #333;
-	font-family: 'Fredoka', sans-serif;
-	font-size: 12vmin; /* Increased font size */
-	font-weight: 350; /* Text is now bold */
-	color: #cdcccb;
-	height: 17vh;
+	background-color: #000;
+	color: #aaa;
+	height: 17vmin;
+	font-size: 12vmin;
 	max-width: 0;
 }
 
 .title:first-child {
 	padding-left: 5vmin;
-	background-color: #000;
 }
 
 .title div {
@@ -72,11 +71,32 @@ body {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	padding: 1vmin 0;
-	
 }
 
 #title_sets, #title_legs, #title_left {
 	text-align: center;
+}
+
+.name {
+	position: relative;
+	text-align: left;
+	word-break: break-word;
+	color: #fff;
+	background-color: transparent;
+	font-size: 16vmin;
+	padding-left: 5vmin;
+	padding-right: 16vmin;
+	max-width: 0;
+	height: 33vh;
+}
+
+.name div {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding: 2vmin 0;
+	line-height: 0.9;
 }
 
 #p1_stats, #p2_stats {
@@ -88,87 +108,38 @@ body {
 .sets, .legs {
 	text-align: center;
 	width: 40vmin;
-	background-color: #333;
-	color: #cdcccb;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 400; /* Text is now bold */
+	background-color: #006cff;
+	color: #fff;
+	font-family: Chalk;
 	font-size: 22vmin;
-	border-right: solid 1px #8f8f8f;
+	border-right: solid 1px #555555;
 }
 
 .left {
 	text-align: center;
 	width: 60vmin;
-	background-color: #333;
-	color: #98db72;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 580; /* Text is now bold */
+	background-color: #006cff;
+	color: #fff;
+	font-family: Chalk;
 	font-size: 22vmin;
-}
-
-.name {
-	position: relative;
-	text-align: left;
-	word-break: break-word;
-	background-color: #d6d7d9;
-	color: #000;
-	font-family: 'Fredoka', sans-serif;
-	font-size: 18vmin; /* Increased font size */
-	font-weight: 550; /* Text is now bold */
-	padding-left: 5vmin;
-	padding-right: 16vmin;
-	max-width: 0;
-	height: 33vh;
-	background-clip: padding-box;
-}
-
-
-.name div {
-	overflow: hidden;
-	display: -webkit-box;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 2;
-	padding: 2vmin 0;
-	line-height: 0.9;
-}
-
-.flag {
-	position: absolute;
-	right: 8vmin;
-	top: calc(50% - 4vmin);
-	width: 17vh;
-	vertical-align: middle;
-	display: none; /* Hide the flag initially */
 }
 
 .first {
 	position: absolute;
 	right: 8vmin;
 	top: calc(50% - 4vmin);
-	background-color: #cc3fc0;
+	background-color: #E91E63;
 	border-radius: 50%;
 	width: 8vmin;
 	height: 8vmin;
-	display: block;
-}
-
-.flag + .first {
-	position: static;
-	display: inline-block;
-	margin-left: 4vmin;
-}
-
-.name img.flag {
-	display: inline-block;
-	position: static;
-	margin-left: 4vmin;
+	display: none;
 }
 
 #current {
 	position: absolute;
 	top: 15vmin;
 	right: 0;
-	background-color: #c2185b;
+	background-color: #E91E63;
 	width: 40vmin;
 	height: 35vmin;
 }
@@ -187,5 +158,5 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
-	-webkit-transform: translateY(-50%) translateX(-50%);
+	-webkit- transform: translateY(-50%) translateX(-50%);
 }
