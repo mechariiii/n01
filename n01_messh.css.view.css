@@ -45,7 +45,7 @@ body {
 }
 
 #result_table tr:nth-child(2) td {
-	border-bottom: solid 4px #8f8f8f;
+	border-bottom: solid 3px #8f8f8f;
 }
 
 .title {
@@ -88,7 +88,7 @@ body {
 	color: #cdcccb;
 	font-size: 22vmin;
 	font-weight: lighter
-	border-right: solid 4px #8f8f8f;
+	border-right: solid 3px #8f8f8f;
 }
 
 .left {
