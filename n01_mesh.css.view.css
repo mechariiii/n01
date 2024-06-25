@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
 /*
  * n01.css.view.css
  *
  * Copyright (C) 1996-2021 by Ohno Tomoaki. All rights reserved.
  */
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-</style>
 
 body {
 	-webkit-text-size-adjust: 100%;
@@ -20,7 +18,7 @@ body {
 	-webkit-touch-callout: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	background-color: #333;
 	color: #000;
 	overflow: hidden;
@@ -75,7 +73,6 @@ body {
 	text-align: center;
 }
 
-
 #p1_stats, #p2_stats {
 	margin-left: 4vmin;
 	font-size: 12vmin;
@@ -98,14 +95,18 @@ body {
 	color: #fff;
 	font-size: 22vmin;
 }
+
 .name {
 	position: relative;
 	text-align: left;
 	word-break: break-word;
 	background-color: #fff;
 	color: #000;
+	font-size: 18vmin;
 	padding-left: 5vmin;
 	padding-right: 16vmin;
+	max-width: 0;
+	height: 33vh;
 	background-clip: padding-box;
 	font-family: 'Fredoka', Arial, sans-serif;
 	font-weight: 500;
@@ -152,8 +153,6 @@ body {
 	margin-left: 4vmin;
 }
 
-
-
 #current {
 	position: absolute;
 	top: 15vmin;
@@ -177,6 +176,5 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
-	-webkit- transform: translateY(-50%) translateX(-50%);
+	-webkit-transform: translateY(-50%) translateX(-50%);
 }
-
