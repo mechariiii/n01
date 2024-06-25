@@ -103,8 +103,8 @@ body {
 	background-color: #fff;
 	color: #000;
 	font-family: 'Fredoka', sans-serif;
-	font-size: 25vmin; /* Increased font size */
-	font-weight: SemiBold; /* Text is now bold */
+	font-size: 16vmin; /* Increased font size */
+	font-weight: 550; /* Text is now bold */
 	padding-left: 5vmin;
 	padding-right: 16vmin;
 	max-width: 0;
