@@ -85,8 +85,9 @@ body {
 	text-align: center;
 	width: 40vmin;
 	background-color: #2196f3;
-	color: #fff;
+	color: #cdcccb;
 	font-size: 22vmin;
+	font-weight: 350; /* Text is now bold */
 	border-right: solid 1px #555555;
 }
 
