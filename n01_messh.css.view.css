@@ -178,8 +178,9 @@ body {
 	background-color: #98db72;
 	width: 40vmin;
 	height: 35vmin;
-	box-shadow: inset 10px 0 -10px rgba(0, 0, 0, 0.5);
+	box-shadow: inset 10px 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 
 #current_mark {
