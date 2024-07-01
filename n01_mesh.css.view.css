@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
@@ -57,7 +57,7 @@ body {
 	text-align: left;
 	word-break: break-word;
 	background-color: #333;
-	font-family: 'Fredoka', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 350; /* Text is now bold */
 	color: #cdcccb;
@@ -127,7 +127,7 @@ body {
 	word-break: break-word;
 	background-color: #d6d7d9;
 	color: #000;
-	font-family: 'Fredoka', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	font-size: 16vmin; /* Increased font size */
 	font-weight: 550; /* Text is now bold */
 	padding-left: 5vmin;
