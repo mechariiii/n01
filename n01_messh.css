@@ -98,7 +98,7 @@ html {
 	vertical-align: middle;
 	font-weight: normal;
 	border: 0px solid #777;
-	background-color: #000000;
+	background-color: #202124;
 }
 .score_table td {
 	vertical-align: middle;
@@ -115,17 +115,17 @@ html {
 	width: 18%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-color: #000000;
+	background-color: #202124;
 }
 .score_left {
-	background-color: #000000;
+	background-color: #202124;
 }
 .score_round {
 	vertical-align: middle;
 	font-weight: normal;
 	border: 0px solid #777;
 	width: 18%;
-	background-color: #000000;
+	background-color: #202124;
 
 }
 
@@ -134,15 +134,15 @@ html {
 	font-family: 'Handlee', sans-serif;
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 400; /* Text is now bold */
-	background-color: #000000;
+	background-color: #202124;
 }
 
 .p1left, .p2left {
-	background-color: #000000;
+	background-color: #202124;
 }
 
 .score_focus {
-	background-color: #000000;
+	background-color: #202124;
 
 }
 
