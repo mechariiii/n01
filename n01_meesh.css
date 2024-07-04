@@ -105,6 +105,8 @@ html {
 
 .score_none {
 	background-color: rgba(238, 238, 238, 0.97);
+		border: 0px solid #777;
+
 }
 .score_input {
 	width: 18%;
