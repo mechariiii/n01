@@ -47,10 +47,9 @@ html {
 	position: fixed;
 }
 .flag {
-	position: absolute;
 	right: 0vmin;
 	top: calc(0% - 0vmin);
-	width: 17vh;
+	width: 0vh;
 	vertical-align: middle;
 	display: none; /* Hide the flag initially */
 }
