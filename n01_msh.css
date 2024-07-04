@@ -167,9 +167,12 @@ html {
 }
 .score_left_big {
 	width: 50%;
+	color: #fff;
 	vertical-align: middle;
 	text-align: center;
 	font-weight: bold;
+	background-color: transparent;
+
 }
 .score_left_big div {
 	color: #fff;
