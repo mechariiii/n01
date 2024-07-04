@@ -128,7 +128,7 @@ html {
 }
 
 .score_focus {
-		background-color: #ffffff;
+	background-color: #ffff80;
 
 }
 
@@ -185,7 +185,7 @@ html {
 	vertical-align: middle;
 	font-weight: normal;
 	border: 1px solid #777;
-	background-color: #ffff80;
+	background-color: #ffffff;
 	background-clip: padding-box;
 	color: #000;
 }
