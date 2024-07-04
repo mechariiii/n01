@@ -206,6 +206,7 @@ html {
     margin: auto;
     width: calc(var(--score-height) * 0.4);
     height: calc(var(--score-height) * 0.4);
+	    border: none; /* Remove all borders */
     background: url('https://i.ibb.co/MGZTy9R/output-onlinegiftools-1.gif') no-repeat center center;
     background-size: cover;
   -webkit-animation: none;
