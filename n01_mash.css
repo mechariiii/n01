@@ -98,7 +98,7 @@ html {
 	vertical-align: middle;
 	font-weight: normal;
 	border: 0px solid #777;
-	background-color: rgba(238, 238, 238, 0.97);
+	background-color: #000000;
 }
 .score_table td {
 	vertical-align: middle;
@@ -115,17 +115,17 @@ html {
 	width: 18%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-color: #fff;
+	background-color: #000000;
 }
 .score_left {
-	background-color: #fff;
+	background-color: #000000;
 }
 .score_round {
 	vertical-align: middle;
 	font-weight: normal;
 	border: 0px solid #777;
 	width: 18%;
-	background-color: rgba(238, 238, 238, 0.97);
+	background-color: #000000;
 
 }
 
