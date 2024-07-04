@@ -104,7 +104,6 @@ html {
 }
 
 .score_none {
-	border: 1px solid #777;
 	background-color: rgba(238, 238, 238, 0.97);
 }
 .score_input {
