@@ -204,8 +204,8 @@ html {
     bottom: 0;
     left: 0;
     margin: auto;
-    width: calc(var(--score-height) * 0.4);
-    height: calc(var(--score-height) * 0.4);
+    width: calc(var(--score-height) * 0.9);
+    height: calc(var(--score-height) * 0.9);
 	    border: none; /* Remove all borders */
     background: url('https://i.ibb.co/MGZTy9R/output-onlinegiftools-1.gif') no-repeat center center;
     background-size: cover;
