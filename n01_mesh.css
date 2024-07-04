@@ -94,13 +94,13 @@ html {
 .score_table th {
 	vertical-align: middle;
 	font-weight: normal;
-	border: 1px solid #777;
+	border: 0px solid #777;
 	background-color: rgba(238, 238, 238, 0.97);
 }
 .score_table td {
 	vertical-align: middle;
 	font-weight: normal;
-	border: 1px solid #777;
+	border: 0px solid #777;
 }
 
 .score_none {
@@ -118,7 +118,7 @@ html {
 .score_round {
 	vertical-align: middle;
 	font-weight: normal;
-	border: 1px solid #777;
+	border: 0px solid #777;
 	width: 18%;
 	background-color: rgba(238, 238, 238, 0.97);
 }
@@ -284,7 +284,7 @@ html {
 	cursor: default;
 	width: 33%;
 	vertical-align: middle;
-	border: 1px solid rgba(128, 128, 128, 0.25);
+	border: 0px solid rgba(128, 128, 128, 0.25);
 	color: #fff;
 	background-color: transparent;
 
