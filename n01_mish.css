@@ -130,6 +130,7 @@ html {
 }
 
 .score_table td.score_input, .score_table td.score_left {
+	color: #ffffff;
 	font-family: 'Handlee', sans-serif;
 	font-size: 12vmin; /* Increased font size */
 	font-weight: 400; /* Text is now bold */
@@ -232,6 +233,7 @@ html {
 	    border: none; /* Remove all borders */
     background: url('https://i.ibb.co/MGZTy9R/output-onlinegiftools-1.gif') no-repeat center center;
     background-size: cover;
+background-color: #000000;
   -webkit-animation: none;
     animation: none;
 }
