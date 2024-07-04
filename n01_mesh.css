@@ -69,10 +69,10 @@ html {
 	word-break: break-word;
 }
 #p1_name {
-	text-align: center;
+	text-align: left	;
 }
 #p2_name {
-	text-align: center;
+	text-align: right;
 }
 #legs {
 	white-space: nowrap;
