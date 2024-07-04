@@ -46,6 +46,14 @@ html {
 	z-index: 2;
 	position: fixed;
 }
+.flag {
+	position: absolute;
+	right: 8vmin;
+	top: calc(50% - 4vmin);
+	width: 17vh;
+	vertical-align: middle;
+	display: none; /* Hide the flag initially */
+}
 
 #header_table {
 	width: 100%;
