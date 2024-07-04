@@ -135,7 +135,7 @@ html {
 .score_table td.score_input, .score_table td.score_left {
 	font-family: 'Handlee', sans-serif;
 	font-size: 12vmin; /* Increased font size */
-	font-weight: 350; /* Text is now bold */
+	font-weight: 400; /* Text is now bold */
 }
 
 .p1left, .p2left {
