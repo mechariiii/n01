@@ -179,6 +179,16 @@ html {
 	background-color: transparent;
 }
 
+
+.focus_frame {
+	background-color: transparent;
+}
+.focus_frame div {
+	background-image:none;
+	background-color: #fff;
+	color: var(--color);
+}
+
 #popup_webcam .score_left_big div {
 	background-color: #fff;
 	color: #000;
