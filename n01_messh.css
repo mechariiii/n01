@@ -121,6 +121,7 @@ html {
 	background-color: #202124;
 }
 .score_round {
+	color: #ffffff;
 	vertical-align: middle;
 	font-weight: normal;
 	border: 0px solid #777;
