@@ -69,9 +69,6 @@ html {
 .player_name {
 	width: 45%;
 	word-break: break-word;
-	font-family: 'Handlee', sans-serif;
-	font-size: 12vmin; /* Increased font size */
-	font-weight: 700; /* Text is now bold */
 
 }
 #p1_name {
