@@ -48,8 +48,8 @@ html {
 }
 .flag {
 	position: absolute;
-	right: 8vmin;
-	top: calc(50% - 4vmin);
+	right: 0vmin;
+	top: calc(0% - 0vmin);
 	width: 17vh;
 	vertical-align: middle;
 	display: none; /* Hide the flag initially */
