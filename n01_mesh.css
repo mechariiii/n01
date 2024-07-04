@@ -5,6 +5,9 @@
  *
  * Copyright (C) 1996-2022 by Ohno Tomoaki. All rights reserved.
  */
+score_input p1score input_area loding {
+		background-color: #000000;
+	}
 
 body {
 	-webkit-text-size-adjust: 100%;
