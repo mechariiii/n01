@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
@@ -129,7 +129,7 @@ body {
 	word-break: break-word;
 	background-color: #d6d7d9;
 	color: #000;
-	font-family: 'Handlee', sans-serif;
+	font-family: 'Concert+One', sans-serif;
 	font-size: 16vmin; /* Increased font size */
 	font-weight: 700; /* Text is now bold */
 	padding-left: 5vmin;
